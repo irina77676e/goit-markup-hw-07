@@ -15,42 +15,40 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="line">
-      <div class="header-container container">
-        <a href="./index.html" class="logo-header logo link">
+      <div class="header__container container">
+        <a href="./index.html" class="logo__header logo link">
           <span class="first-part">Web</span
           ><span class="last-part">Studio</span>
         </a>
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link link current"
+        <nav class="nav header__nav">
+          <ul class="nav__list header__nav">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link nav__link--current link"
                 >Студія</a
               >
             </li>
-            <li class="header-nav-item">
-              <a href="./portfolio.html" class="header-nav-link link"
-                >Портфоліо</a
-              >
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link">Портфоліо</a>
             </li>
-            <li class="header-nav-item">
-              <a href="#" class="header-nav-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="#" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-group">
-          <li class="contacts-item">
+        <ul class="header__group">
+          <li>
             <a
-              class="header-mail-link link"
+              class="contacts__link mail__link link"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="small-icon" width="16" height="12">
+              <svg class="small__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -58,12 +56,12 @@
           </li>
           <li>
             <a
-              class="header-tel-link link"
+              class="contacts__link link"
               href="tel:+380961111111"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="small-icon" width="10" height="16">
+              <svg class="small__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -72,11 +70,11 @@
         </ul>
       </div>
     </header>
-    <main class="hero-main">
+    <main class="hero__main">
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="btn-primary button" type="button" data-modal-open>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero__btn button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -84,51 +82,51 @@
       <section class="about">
         <div class="container">
           <h2 class="visually-hidden">Наші особливості</h2>
-          <ul class="about-us">
-            <li class="about-us-item">
-              <div class="about-us-box">
-                <svg class="icons" width="70" height="70">
+          <ul class="about__us">
+            <li class="about__item">
+              <div class="about__us__box">
+                <svg class="about__icons" width="70" height="70">
                   <use href="./images/icons.svg#icon-group"></use>
                 </svg>
               </div>
-              <h3 class="about-us-title">увага до деталей</h3>
-              <p class="about-us-first">
+              <h3 class="about__title">увага до деталей</h3>
+              <p class="about__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="about-us-item">
-              <div class="about-us-box">
-                <svg class="icon" width="70" height="70">
+            <li class="about__item">
+              <div class="about__us__box">
+                <svg class="about__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock1"></use>
                 </svg>
               </div>
-              <h3 class="about-us-title">пунктуальність</h3>
-              <p class="about-us-first">
+              <h3 class="about__title">пунктуальність</h3>
+              <p class="about__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="about-us-item">
-              <div class="about-us-box">
-                <svg class="icon" width="70" height="70">
+            <li class="about__item">
+              <div class="about__us__box">
+                <svg class="about__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram1"></use>
                 </svg>
               </div>
-              <h3 class="about-us-title">планування</h3>
-              <p class="about-us-first">
+              <h3 class="about__title">планування</h3>
+              <p class="about__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="about-us-item">
-              <div class="about-us-box">
-                <svg class="icon" width="70" height="70">
+            <li class="about__item">
+              <div class="about__us__box">
+                <svg class="about__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut1"></use>
                 </svg>
               </div>
 
-              <h3 class="about-us-title">сучасні технології</h3>
-              <p class="about-us-first">
+              <h3 class="about__title">сучасні технології</h3>
+              <p class="about__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -136,11 +134,11 @@
           </ul>
         </div>
       </section>
-      <section class="what">
+      <section class="works">
         <div class="container">
-          <h2 class="title-first">Чим ми займаємося</h2>
-          <ul class="list">
-            <li class="what-item">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="works-list">
+            <li class="works-item">
               <img
                 src="./img/img.jpg"
                 alt="клавіатура"
@@ -151,7 +149,7 @@
                 <p class="overlay-text">Десктопні додатки</p>
               </div>
             </li>
-            <li class="what-item">
+            <li class="works-item">
               <img
                 src="./img/box2.jpg"
                 alt="телефон"
@@ -162,7 +160,7 @@
                 <p class="overlay-text">Мобільні додатки</p>
               </div>
             </li>
-            <li class="what-item">
+            <li class="works-item">
               <img
                 src="./img/box3.jpg"
                 alt="планшет"
@@ -179,17 +177,17 @@
 
       <section class="team">
         <div class="container">
-          <h2 class="title-first">Наша команда</h2>
+          <h2 class="section-title">Наша команда</h2>
           <ul class="team-item">
-            <li class="box-item">
+            <li class="team-box">
               <img
                 src="./img/1.jpg"
                 alt="Designer Ігор Дем'яненко"
                 width="270"
                 height="260"
               />
-              <h3 class="name-item">Ігор Дем'яненко</h3>
-              <p class="workers-item">Product Designer</p>
+              <h3 class="team-name">Ігор Дем'яненко</h3>
+              <p class="team-workers">Product Designer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a
@@ -246,15 +244,15 @@
               </ul>
             </li>
 
-            <li class="box-item">
+            <li class="team-box">
               <img
                 src="./img/2.jpg"
                 alt="Frontend Ольга Рєпіна"
                 width="270"
                 height="260"
               />
-              <h3 class="name-item">Ольга Рєпіна</h3>
-              <p class="workers-item">Frontend Developer</p>
+              <h3 class="team-name">Ольга Рєпіна</h3>
+              <p class="team-workers">Frontend Developer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a
@@ -311,15 +309,15 @@
                 </li>
               </ul>
             </li>
-            <li class="box-item">
+            <li class="team-box">
               <img
                 src="./img/3.jpg"
                 alt="Marketing Микола Тарасов"
                 width="270"
                 height="260"
               />
-              <h3 class="name-item">Микола Тарасов</h3>
-              <p class="workers-item">Marketing</p>
+              <h3 class="team-name">Микола Тарасов</h3>
+              <p class="team-workers">Marketing</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a
@@ -376,15 +374,15 @@
                 </li>
               </ul>
             </li>
-            <li class="box-item">
+            <li class="team-box">
               <img
                 src="./img/4.jpg"
                 alt="UI Designer Михайло Єрмаков"
                 width="270"
                 height="260"
               />
-              <h3 class="name-item">Михайло Єрмаков</h3>
-              <p class="workers-item">UI Designer</p>
+              <h3 class="team-name">Михайло Єрмаков</h3>
+              <p class="team-workers">UI Designer</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a
@@ -446,7 +444,7 @@
       </section>
       <section class="clients">
         <div class="container">
-          <h2 class="title-first">Постійні клієнти</h2>
+          <h2 class="section-title">Постійні клієнти</h2>
           <ul class="clients-list">
             <li class="clients-items">
               <a href="" class="clients-link">
@@ -496,11 +494,11 @@
     </main>
 
     <footer class="footer-block">
-      <div class="container footer-main">
-        <div class="footer-first">
+      <div class="container footer-box">
+        <div class="footer-logo">
           <a href="./index.html" class="logo logo-footer">
             <span class="first-part">Web</span
-            ><span class="footer-last-part">Studio</span>
+            ><span class="footer-logo-part">Studio</span>
           </a>
           <address class="footer-address">
             <ul class="footer-list">

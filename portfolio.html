@@ -15,40 +15,42 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="line">
-      <div class="header-container container">
-        <a href="./index.html" class="logo-header logo link">
+      <div class="header__container container">
+        <a href="./index.html" class="logo__header logo link">
           <span class="first-part">Web</span
           ><span class="last-part">Studio</span>
         </a>
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link link">Студія</a>
+        <nav class="nav header__nav">
+          <ul class="nav__list header__nav">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link link">Студія</a>
             </li>
-            <li class="header-nav-item">
-              <a href="./portfolio.html" class="header-nav-link link current"
+            <li class="nav__item">
+              <a
+                href="./portfolio.html"
+                class="nav__link link nav__link--current"
                 >Портфоліо</a
               >
             </li>
-            <li class="header-nav-item">
-              <a href="#" class="header-nav-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="#" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-group">
+        <ul class="header__group">
           <li class="contacts-item">
             <a
-              class="header-mail-link link"
+              class="contacts__link mail__link link"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="small-icon" width="16" height="12">
+              <svg class="small__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -56,12 +58,12 @@
           </li>
           <li>
             <a
-              class="header-tel-link link"
+              class="contacts__link link"
               href="tel:+380961111111"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="small-icon" width="10" height="16">
+              <svg class="small__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -98,7 +100,7 @@
           </ul>
 
           <ul class="pictures-item">
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img1.jpg"
@@ -119,7 +121,7 @@
                 <p class="portfolio-item-first">Веб-сайт</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img2.jpg"
@@ -140,7 +142,7 @@
                 <p class="portfolio-item-first">Дизайн</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img3.jpg"
@@ -161,7 +163,7 @@
                 <p class="portfolio-item-first">Додаток</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img4.jpg"
@@ -182,7 +184,7 @@
                 <p class="portfolio-item-first">Маркетинг</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img5.jpg"
@@ -203,7 +205,7 @@
                 <p class="portfolio-item-first">Додаток</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img6.jpg"
@@ -224,7 +226,7 @@
                 <p class="portfolio-item-first">Веб-сайт</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img7.jpg"
@@ -245,7 +247,7 @@
                 <p class="portfolio-item-first">Дизайн</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img8.jpg"
@@ -266,7 +268,7 @@
                 <p class="portfolio-item-first">Маркетинг</p>
               </div>
             </li>
-            <li class="container-item">
+            <li class="portfolio-container-item">
               <div class="team-thumb">
                 <img
                   src="./images/img9.jpg"
@@ -292,11 +294,11 @@
       </section>
     </main>
     <footer class="footer-block">
-      <div class="container footer-main">
-        <div class="footer-first">
+      <div class="container footer-box">
+        <div class="footer-logo">
           <a href="./index.html" class="logo logo-footer">
             <span class="first-part">Web</span
-            ><span class="footer-last-part">Studio</span>
+            ><span class="footer-logo-part">Studio</span>
           </a>
           <address class="footer-address">
             <ul class="footer-list">
